@@ -27,9 +27,52 @@
                         <label for="secondName">Segundo Nome</label>
                         <input type="text" id="secondName" placeholder="Insira o segundo nome...">
                     </div>
-                </div>
-            </form>
-        </div>
-    </div>
+                    <div class="formBox">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Insira seu email...">
+                   </div>
+
+                   <div class="formBox">
+                       <label for="job_role">Cargo de trabalho</label>
+                       <select name="job_role" id="job_role">
+                           <option value="">Selecione seu cargo</option>
+                           <option value="frontend">Frontend Developer</option>
+                           <option value="backend">Backend Developer</option>
+                           <option value="full_stack">Full Stack Developer</option>
+                           <option value="ui_ux">UI/UX Designer</option>
+                       </select>
+                   </div>
+
+                   <div class="textareaBox">
+                        <label for="adress">Endereço</label>
+                        <textarea id="adress" cols="50" rows="4" placeholder="Insira seu endereço"></textarea>
+                   </div>
+
+                   <div class="formBox">
+                        <label for="state">Estado</label>
+                        <input type="text" id="state" placeholder="Insira seu o nome do seu estado">
+                   </div>
+                   
+                   <div class="formBox">
+                        <label for="pincode">Código PIN</label>
+                        <input type="number" id="pincode" placeholder="Insira seu código pin">
+                   </div>
+
+                   <div class="formBox">
+                        <label for="date">Data</label>
+                        <input type="date" value="2022-11-11" id="date">
+                   </div>
+
+                   <div class="formBox">
+                        <label for="upload">Carregar Currículo</label>
+                        <input type="file" name="upload" id="upload">
+                   </div>
+
+                   <div class="button_container">
+                       <button type="button">Aplicar</button>
+                   </div>
+           </form>
+       </div>
+   </div>
 </body>
 </html>
